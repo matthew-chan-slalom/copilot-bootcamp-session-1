@@ -73,6 +73,40 @@ li:last-child {
   border-bottom: none;
 }
 
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.item-name {
+  flex: 1;
+  text-align: left;
+  font-weight: 500;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.delete-button:active {
+  background-color: #b71c1c;
+}
+
 .error {
   color: #d32f2f;
   font-weight: bold;
